@@ -70,3 +70,4 @@ Contributions to this project are welcome! If you have any bug fixes, new featur
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+# netflex-clone
