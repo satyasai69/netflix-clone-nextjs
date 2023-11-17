@@ -68,7 +68,7 @@ import {
   
           <div className="relative pt-[56.25%]">
             <ReactPlayer
-              url={`https://www.youtube.com/watch?v=UQeTCD-VD2Y`}//{`https://www.youtube.com/watch?v=${trailer}`}
+              url={`https://www.youtube.com/watch?v=UQeTCD-VD2Y`} //{`https://www.youtube.com/watch?v=${trailer}`}
               width="100%"
               height="100%"
               style={{ position: 'absolute', top: '0', left: '0' }}
