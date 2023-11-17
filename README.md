@@ -73,3 +73,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 # netflex-clone
 # netflex-clone
 # netflex-clone
+# netflix-clone-nextjs
