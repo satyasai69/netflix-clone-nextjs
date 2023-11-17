@@ -25,14 +25,16 @@ function Header() {
   }, [])
 
   return (
-    <header className={`${isScrolled && 'bg-[#141414]'}`}>
+    <header className={`${isScrolled && 'w-full h-[65px] fixed top-0 shadow-lg  bg-[#03001417] backdrop-blur-md z-50 px-10'}`}>
       <div className="flex items-center space-x-2 md:space-x-10">
         <Image
-          src="/netflix_logo.svg"
+ 
+          src= '/logo.svg'
+
           width={100}
-          height={100}
+          height={30}
           className="cursor-pointer object-contain"
-          alt="netflix logo"
+          alt="logo"
         />
 
         <ul className="hidden space-x-4 md:flex">
@@ -49,7 +51,7 @@ function Header() {
         <p className="hidden lg:inline">Kids</p>
         <BellIcon className="h-6 w-6" />
         {/* <Link href="/account"> */}
-        <Image
+       {/* <Image
           onClick={logout}
           src="/avatar"
           alt=""
