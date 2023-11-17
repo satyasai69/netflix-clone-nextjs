@@ -1,3 +1,4 @@
+//banner
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { baseUrl } from '../constants/movie'
