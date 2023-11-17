@@ -4,7 +4,8 @@ import { modalState, movieState } from '../atoms/modalAtom'
 import { Movie } from '../typings'
 
 interface Props {
-  // When using firebase
+  // When using firebase 
+  //
   movie: Movie
 }
 
